@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2BC8BD81A86AF7000443158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC8BD71A86AF7000443158 /* AppDelegate.swift */; };
+		F2BC8BDA1A86AF7000443158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC8BD91A86AF7000443158 /* ViewController.swift */; };
+		F2BC8BDD1A86AF7000443158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BC8BDB1A86AF7000443158 /* Main.storyboard */; };
+		F2BC8BDF1A86AF7000443158 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BC8BDE1A86AF7000443158 /* Images.xcassets */; };
+		F2BC8BE21A86AF7000443158 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BC8BE01A86AF7000443158 /* LaunchScreen.xib */; };
+		F2BC8BEE1A86AF7000443158 /* CustomTextInputTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC8BED1A86AF7000443158 /* CustomTextInputTableViewCellTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2BC8BE81A86AF7000443158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BC8BCA1A86AF7000443158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BC8BD11A86AF7000443158;
+			remoteInfo = CustomTextInputTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2BC8BD21A86AF7000443158 /* CustomTextInputTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextInputTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BC8BD61A86AF7000443158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BC8BD71A86AF7000443158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BC8BD91A86AF7000443158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BC8BDC1A86AF7000443158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BC8BDE1A86AF7000443158 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2BC8BE11A86AF7000443158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2BC8BE71A86AF7000443158 /* CustomTextInputTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextInputTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BC8BEC1A86AF7000443158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BC8BED1A86AF7000443158 /* CustomTextInputTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextInputTableViewCellTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BC8BCF1A86AF7000443158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BC8BE41A86AF7000443158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2BC8BC91A86AF7000443158 = {
+			isa = PBXGroup;
+			children = (
+				F2BC8BD41A86AF7000443158 /* CustomTextInputTableViewCell */,
+				F2BC8BEA1A86AF7000443158 /* CustomTextInputTableViewCellTests */,
+				F2BC8BD31A86AF7000443158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BC8BD31A86AF7000443158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BC8BD21A86AF7000443158 /* CustomTextInputTableViewCell.app */,
+				F2BC8BE71A86AF7000443158 /* CustomTextInputTableViewCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BC8BD41A86AF7000443158 /* CustomTextInputTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2BC8BD71A86AF7000443158 /* AppDelegate.swift */,
+				F2BC8BD91A86AF7000443158 /* ViewController.swift */,
+				F2BC8BDB1A86AF7000443158 /* Main.storyboard */,
+				F2BC8BDE1A86AF7000443158 /* Images.xcassets */,
+				F2BC8BE01A86AF7000443158 /* LaunchScreen.xib */,
+				F2BC8BD51A86AF7000443158 /* Supporting Files */,
+			);
+			path = CustomTextInputTableViewCell;
+			sourceTree = "<group>";
+		};
+		F2BC8BD51A86AF7000443158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BC8BD61A86AF7000443158 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2BC8BEA1A86AF7000443158 /* CustomTextInputTableViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BC8BED1A86AF7000443158 /* CustomTextInputTableViewCellTests.swift */,
+				F2BC8BEB1A86AF7000443158 /* Supporting Files */,
+			);
+			path = CustomTextInputTableViewCellTests;
+			sourceTree = "<group>";
+		};
+		F2BC8BEB1A86AF7000443158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BC8BEC1A86AF7000443158 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BC8BD11A86AF7000443158 /* CustomTextInputTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BC8BF11A86AF7000443158 /* Build configuration list for PBXNativeTarget "CustomTextInputTableViewCell" */;
+			buildPhases = (
+				F2BC8BCE1A86AF7000443158 /* Sources */,
+				F2BC8BCF1A86AF7000443158 /* Frameworks */,
+				F2BC8BD01A86AF7000443158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTextInputTableViewCell;
+			productName = CustomTextInputTableViewCell;
+			productReference = F2BC8BD21A86AF7000443158 /* CustomTextInputTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2BC8BE61A86AF7000443158 /* CustomTextInputTableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BC8BF41A86AF7000443158 /* Build configuration list for PBXNativeTarget "CustomTextInputTableViewCellTests" */;
+			buildPhases = (
+				F2BC8BE31A86AF7000443158 /* Sources */,
+				F2BC8BE41A86AF7000443158 /* Frameworks */,
+				F2BC8BE51A86AF7000443158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BC8BE91A86AF7000443158 /* PBXTargetDependency */,
+			);
+			name = CustomTextInputTableViewCellTests;
+			productName = CustomTextInputTableViewCellTests;
+			productReference = F2BC8BE71A86AF7000443158 /* CustomTextInputTableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BC8BCA1A86AF7000443158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andrew Bancroft";
+				TargetAttributes = {
+					F2BC8BD11A86AF7000443158 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F2BC8BE61A86AF7000443158 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F2BC8BD11A86AF7000443158;
+					};
+				};
+			};
+			buildConfigurationList = F2BC8BCD1A86AF7000443158 /* Build configuration list for PBXProject "CustomTextInputTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BC8BC91A86AF7000443158;
+			productRefGroup = F2BC8BD31A86AF7000443158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BC8BD11A86AF7000443158 /* CustomTextInputTableViewCell */,
+				F2BC8BE61A86AF7000443158 /* CustomTextInputTableViewCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BC8BD01A86AF7000443158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BC8BDD1A86AF7000443158 /* Main.storyboard in Resources */,
+				F2BC8BE21A86AF7000443158 /* LaunchScreen.xib in Resources */,
+				F2BC8BDF1A86AF7000443158 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BC8BE51A86AF7000443158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BC8BCE1A86AF7000443158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BC8BDA1A86AF7000443158 /* ViewController.swift in Sources */,
+				F2BC8BD81A86AF7000443158 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BC8BE31A86AF7000443158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BC8BEE1A86AF7000443158 /* CustomTextInputTableViewCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2BC8BE91A86AF7000443158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BC8BD11A86AF7000443158 /* CustomTextInputTableViewCell */;
+			targetProxy = F2BC8BE81A86AF7000443158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2BC8BDB1A86AF7000443158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BC8BDC1A86AF7000443158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BC8BE01A86AF7000443158 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BC8BE11A86AF7000443158 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BC8BEF1A86AF7000443158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BC8BF01A86AF7000443158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BC8BF21A86AF7000443158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTextInputTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2BC8BF31A86AF7000443158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTextInputTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2BC8BF51A86AF7000443158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomTextInputTableViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTextInputTableViewCell.app/CustomTextInputTableViewCell";
+			};
+			name = Debug;
+		};
+		F2BC8BF61A86AF7000443158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomTextInputTableViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTextInputTableViewCell.app/CustomTextInputTableViewCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BC8BCD1A86AF7000443158 /* Build configuration list for PBXProject "CustomTextInputTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BC8BEF1A86AF7000443158 /* Debug */,
+				F2BC8BF01A86AF7000443158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BC8BF11A86AF7000443158 /* Build configuration list for PBXNativeTarget "CustomTextInputTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BC8BF21A86AF7000443158 /* Debug */,
+				F2BC8BF31A86AF7000443158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2BC8BF41A86AF7000443158 /* Build configuration list for PBXNativeTarget "CustomTextInputTableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BC8BF51A86AF7000443158 /* Debug */,
+				F2BC8BF61A86AF7000443158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BC8BCA1A86AF7000443158 /* Project object */;
+}
