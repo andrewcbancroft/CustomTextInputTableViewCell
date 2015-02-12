@@ -1,25 +1,14 @@
-//
-//  ViewController.swift
-//  CustomTextInputTableViewCell
-//
-//  Created by Andrew Bancroft on 2/7/15.
-//  Copyright (c) 2015 Andrew Bancroft. All rights reserved.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+public class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+	public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		return 1 // Create 1 row as an example
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+ 
+	public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+		let cell = tableView.dequeueReusableCellWithIdentifier("TextInputCell") as TextInputTableViewCell
+		
+		cell.configure(text: "", placeholder: "Enter some text!")
+		return cell
 	}
-
-
 }
-

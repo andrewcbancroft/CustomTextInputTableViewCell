@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F297C9941A87F3F60074DC17 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297C9931A87F3F60074DC17 /* TextInputTableViewCell.swift */; };
 		F2BC8BD81A86AF7000443158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC8BD71A86AF7000443158 /* AppDelegate.swift */; };
 		F2BC8BDA1A86AF7000443158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC8BD91A86AF7000443158 /* ViewController.swift */; };
 		F2BC8BDD1A86AF7000443158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BC8BDB1A86AF7000443158 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F297C9931A87F3F60074DC17 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
 		F2BC8BD21A86AF7000443158 /* CustomTextInputTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextInputTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BC8BD61A86AF7000443158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BC8BD71A86AF7000443158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,9 +79,10 @@
 		F2BC8BD41A86AF7000443158 /* CustomTextInputTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				F2BC8BD71A86AF7000443158 /* AppDelegate.swift */,
-				F2BC8BD91A86AF7000443158 /* ViewController.swift */,
 				F2BC8BDB1A86AF7000443158 /* Main.storyboard */,
+				F2BC8BD91A86AF7000443158 /* ViewController.swift */,
+				F297C9931A87F3F60074DC17 /* TextInputTableViewCell.swift */,
+				F2BC8BD71A86AF7000443158 /* AppDelegate.swift */,
 				F2BC8BDE1A86AF7000443158 /* Images.xcassets */,
 				F2BC8BE01A86AF7000443158 /* LaunchScreen.xib */,
 				F2BC8BD51A86AF7000443158 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BC8BDA1A86AF7000443158 /* ViewController.swift in Sources */,
+				F297C9941A87F3F60074DC17 /* TextInputTableViewCell.swift in Sources */,
 				F2BC8BD81A86AF7000443158 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				F2BC8BF31A86AF7000443158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2BC8BF41A86AF7000443158 /* Build configuration list for PBXNativeTarget "CustomTextInputTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				F2BC8BF61A86AF7000443158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
