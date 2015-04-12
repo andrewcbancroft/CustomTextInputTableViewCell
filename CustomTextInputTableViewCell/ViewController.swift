@@ -6,7 +6,7 @@ public class ViewController: UIViewController, UITableViewDataSource, UITableVie
 	}
  
 	public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCellWithIdentifier("TextInputCell") as TextInputTableViewCell
+		let cell = tableView.dequeueReusableCellWithIdentifier("TextInputCell") as! TextInputTableViewCell
 		
 		cell.configure(text: "", placeholder: "Enter some text!")
 		return cell
